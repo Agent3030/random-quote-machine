@@ -1,0 +1,23 @@
+//buttons
+.btn-main {
+	outline:none !important;
+	text-align: center;
+	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif, serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: $btn-color;
+	color: $font-color;
+	font-size: em(22px);
+	line-height: em(30px);
+	min-width: em(150px);
+	letter-spacing: em(1.5px);
+	border-bottom: 2px solid 	#A0A0A0 ;
+	&:active {
+		box-shadow: none;
+		border: 2px solid $btn-color-hover;
+	}
+	&:hover {
+		background-color: $btn-color-hover;
+	}
+	
+}

@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Carrois Gothic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/carroisgothic.eot?#iefix") format("embedded-opentype"), url("/fonts/carroisgothic.woff2") format("woff2"), url("/fonts/carroisgothic.woff") format("woff"), url("/fonts/carroisgothic.ttf") format("truetype"), url("/fonts/carroisgothic.svg#Carrois Gothic") format("svg"); }
+
+@font-face {
+  font-family: "Raleway Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/ralewayregular.eot?#iefix") format("embedded-opentype"), url("/fonts/ralewayregular.woff2") format("woff2"), url("/fonts/ralewayregular.woff") format("woff"), url("/fonts/ralewayregular.ttf") format("truetype"), url("/fonts/ralewayregular.svg#Raleway Regular") format("svg"); }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/roboto.eot?#iefix") format("embedded-opentype"), url("/fonts/roboto.woff2") format("woff2"), url("/fonts/roboto.woff") format("woff"), url("/fonts/roboto.ttf") format("truetype"), url("/fonts/roboto.svg#Roboto") format("svg"); }
+
+@font-face {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/robotocondensed.eot?#iefix") format("embedded-opentype"), url("/fonts/robotocondensed.woff2") format("woff2"), url("/fonts/robotocondensed.woff") format("woff"), url("/fonts/robotocondensed.ttf") format("truetype"), url("/fonts/robotocondensed.svg#Roboto Condensed") format("svg"); }
+
+body {
+  background-color: #F8F8F8;
+  padding: 50px 100px 50px 100px; }
+
+section {
+  background-color: #E8E8E8;
+  min-height: 46.875em;
+  box-shadow: 4px 4px 3px #B0B0B0; }
+
+h1, h2, h3, h4, h5, h6, p, li, span {
+  color: #404040; }
+
+h1, h2 {
+  font-weight: 700;
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif, serif;
+  text-transform: capitalize; }
+
+h3, h4, h5, h6 {
+  font-weight: 600;
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif, serif; }
+
+p {
+  font-family: "Raleway", Helvetica, Arial, sans-serif, serif; }
+
+h1 {
+  text-align: center;
+  font-size: 2.625em;
+  line-height: 2.625em;
+  letter-spacing: 0.125em; }
+
+h4 {
+  text-align: justify;
+  font-size: 1.5em;
+  line-height: 1.625em; }
+
+.btn-main {
+  outline: none !important;
+  text-align: center;
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif, serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #FFCC00;
+  color: #404040;
+  font-size: 1.375em;
+  line-height: 1.875em;
+  min-width: 9.375em;
+  letter-spacing: 0.09375em;
+  border-bottom: 2px solid 	#A0A0A0; }
+  .btn-main:active {
+    box-shadow: none;
+    border: 2px solid #FFCC33; }
+  .btn-main:hover {
+    background-color: #FFCC33; }
+
+h1 {
+  color: #FFCC00; }
+
+h4 {
+  margin-bottom: 2.5em;
+  text-align: center;
+  font-weight: 500; }
+
+#lat-quote {
+  position: relative;
+  background-color: #FFFFCC;
+  min-height: 15.625em;
+  padding: 20px;
+  box-shadow: 3px 3px 2px #B0B0B0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+  #lat-quote h3 {
+    text-align: center;
+    vertical-align: center;
+    font-family: "Carrois Gothic", Helvetica, Arial, sans-serif, serif;
+    font-size: 1.8125em;
+    line-height: 1.875em;
+    text-transform: capitalize;
+    font-weight: 500; }
+  #lat-quote:before {
+    position: absolute;
+    content: "Latin";
+    font-size: 1.25em;
+    min-height: 30px;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid #C8C8C8;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F8F8F8;
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif, serif;
+    top: -8%;
+    left: 40%;
+    text-transform: lowercase;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; }
+
+#eng-quote {
+  position: relative;
+  background-color: #FFFFCC;
+  min-height: 15.625em;
+  padding: 20px;
+  box-shadow: 3px 3px 2px #B0B0B0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+  #eng-quote h3 {
+    text-align: center;
+    vertical-align: center;
+    font-family: "Raleway Regular", Helvetica, Arial, sans-serif, serif;
+    font-size: 1.625em;
+    line-height: 1.875em;
+    text-transform: capitalize;
+    font-weight: 500; }
+  #eng-quote:before {
+    position: absolute;
+    content: "english";
+    font-size: 1.25em;
+    min-height: 30px;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid #C8C8C8;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F8F8F8;
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif, serif;
+    top: -8%;
+    left: 40%;
+    text-transform: lowercase;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; }
+
+#author {
+  text-align: right;
+  margin-bottom: 1.875em; }
+  #author h3 {
+    font-style: italic; }
+  #author #author-name {
+    font-weight: 500;
+    padding-left: 20px; }
+
+.buttons {
+  text-align: center;
+  margin-bottom: 3.125em; }
+
+/*# sourceMappingURL=main.css.map*/
